@@ -3,3 +3,16 @@
 
 ### 1. pom.xml에 sitemeth maven dependency 추가
 ##### grouptId - opensymphony // artifactId - sitemesh // version - 2.4.2
+
+### 2. web.xml 에 sitemesh의 설정 파일 경로 지정 및 페이지 필터 설정
+##### context-param
+##### param-name - sitemesh.configfile
+##### param-value - /WEB-INF/sitemeshConfig/sitemesh.xml
+
+##### filter
+##### filter-name - sitemesh
+##### filter-class com.opensymphony.module.sitemesh.filter.PageFilter
+
+##### filter-mapping
+##### filter-name - sitemesh
+##### url-pattern - /*
