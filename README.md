@@ -17,7 +17,8 @@
 ##### filter-name - sitemesh
 ##### url-pattern - /*
 
-##### 찾아보니까 예전에 작성했던 sitemesh 튜토리얼이 있었다... >>  https://github.com/leesunku/sitemesh_spring
+##### 찾아보니까 본인이 예전에 작성했던 sitemesh 튜토리얼이 있었다... 이렇게 기억력이 ㅠㅠ
+##### >>  https://github.com/leesunku/sitemesh_spring
 
 ##### 그래서 이번엔, submenu 등록하는 방법에 대해 작성하겠다.
 ##### 인터넷에 찾아보니 다양한 방법이 있었지만, 너무 복잡하고 간단하게 하는 법을 생각하던중, 서브 메뉴가 있는 페이지만 따로 작성하는 법을 사용하기로 했다.
