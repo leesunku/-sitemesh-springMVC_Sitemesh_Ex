@@ -11,21 +11,33 @@ public class HomeController {
 	public String home() {
 		return "index";
 	}	
-	@RequestMapping(value = "index", method = RequestMethod.GET)
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String index() {
 		return "index";
 	}
-	@RequestMapping(value = "first", method = RequestMethod.GET)
+	@RequestMapping(value = "/first", method = RequestMethod.GET)
 	public String first() {
 		return "first";
 	}
-	@RequestMapping(value = "sec", method = RequestMethod.GET)
-	public String sec() {
-		return "sec";
+	@RequestMapping(value = "/socialAnalysis", method = RequestMethod.GET)
+	public String socialAnalysis() {
+		return "socialAnalysis";
 	}
-	@RequestMapping(value = "thr", method = RequestMethod.GET)
+	@RequestMapping(value = "/thr", method = RequestMethod.GET)
 	public String thr() {
 		return "thr";
+	}
+	@RequestMapping(value = "/socialAnalysis/socialAnalysisMain", method = RequestMethod.GET)
+	public String socialAnalysisMain() {
+		return "socialAnalysis/socialAnalysisMain";
+	}
+	@RequestMapping(value = "/socialAnalysis/socialAnalysisFirst", method = RequestMethod.GET)
+	public String socialAnalysisFirst() {
+		return "socialAnalysis/socialAnalysisFirst";
+	}
+	@RequestMapping(value = "/socialAnalysis/socialAnalysisSec", method = RequestMethod.GET)
+	public String socialAnalysisSec() {
+		return "socialAnalysis/socialAnalysisSec";
 	}
 	
 	

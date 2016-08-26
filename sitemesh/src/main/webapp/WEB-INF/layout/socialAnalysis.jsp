@@ -6,16 +6,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><decorator:title default="SitemeshLayout"/></title>
-<decorator:head/>
 </head>
 <body>
+
 <a href="/index">index</a><br>
 <a href="/first">first</a><br>
 <a href="/socialAnalysis/socialAnalysisMain">socialAnalysis</a><br>
 <a href="/thr">thr</a><br>
 
 aaaaaa<br>
+<a href="/socialAnalysis/socialAnalysisMain">socialAnalysisMain</a><br>
+<a href="/socialAnalysis/socialAnalysisFirst">socialAnalysisFirst</a><br>
+<a href="/socialAnalysis/socialAnalysisSec">socialAnalysisSec</a><br>
 <decorator:body /><br>
-aaaaaa
+aaaaaa<br>
 </body>
 </html>
