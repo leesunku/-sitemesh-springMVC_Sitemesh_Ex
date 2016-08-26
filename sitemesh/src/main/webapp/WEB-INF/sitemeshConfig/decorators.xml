@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<excludes>
+		<pattern>*.json</pattern>
+	</excludes>
+	<!-- excludes는 sitemesh를 사용하지 않는다는 의미 -->
+	
+	<decorator name = "layout" page = "/WEB-INF/layout/layout.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
