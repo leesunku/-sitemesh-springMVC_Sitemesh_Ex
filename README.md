@@ -16,3 +16,5 @@
 ##### filter-mapping
 ##### filter-name - sitemesh
 ##### url-pattern - /*
+
+##### 찾아보니까 예전에 작성했던 sitemesh 튜토리얼이 있었다... 그래서
