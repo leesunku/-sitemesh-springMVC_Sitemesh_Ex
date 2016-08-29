@@ -7,15 +7,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><decorator:title default="SitemeshLayout"/></title>
 <decorator:head/>
+<style type="text/css">
+a{text-decoration:none; color:#000000;}		 
+a:hover{color:#ff0000;} 		
+ul{padding-top:10px;} 		       
+ul li {
+	display:inline-block; 			    
+	border-left:1px solid #999; 		
+	font:bold 12px Dotum; 			
+	padding:0 10px; 				
+}
+ul li:first-child{border-left:none;}
+</style>
 </head>
 <body>
-<a href="/index">index</a><br>
-<a href="/first">first</a><br>
-<a href="/socialAnalysis/socialAnalysisMain">socialAnalysis</a><br>
-<a href="/thr">thr</a><br>
-
-aaaaaa<br>
-<decorator:body /><br>
-aaaaaa
+<ul>
+	<li><a href="index">index</a><br></li>
+	<li><a href="first">first</a><br></li>
+	<li><a href="socialAnalysisMain">socialAnalysis</a><br></li>
+	<li><a href="thr">thr</a><br></li>
+</ul>
+<decorator:body />
 </body>
 </html>

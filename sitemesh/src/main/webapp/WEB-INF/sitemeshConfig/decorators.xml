@@ -4,7 +4,7 @@
 		<pattern>*.json</pattern>
 	</excludes>	
 	<decorator name = "socialAnalysis" page = "/WEB-INF/layout/socialAnalysis.jsp">
-		<pattern>/socialAnalysis/*</pattern>
+		<pattern>/socialAnalysis*</pattern>
 	</decorator>
 	<decorator name = "layout" page = "/WEB-INF/layout/layout.jsp">
 		<pattern>/*</pattern>

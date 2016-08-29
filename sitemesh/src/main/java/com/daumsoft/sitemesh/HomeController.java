@@ -27,15 +27,17 @@ public class HomeController {
 	public String thr() {
 		return "thr";
 	}
-	@RequestMapping(value = "/socialAnalysis/socialAnalysisMain", method = RequestMethod.GET)
+	
+	
+	@RequestMapping(value = "/socialAnalysisMain", method = RequestMethod.GET)
 	public String socialAnalysisMain() {
 		return "socialAnalysis/socialAnalysisMain";
 	}
-	@RequestMapping(value = "/socialAnalysis/socialAnalysisFirst", method = RequestMethod.GET)
+	@RequestMapping(value = "/socialAnalysisFirst", method = RequestMethod.GET)
 	public String socialAnalysisFirst() {
 		return "socialAnalysis/socialAnalysisFirst";
 	}
-	@RequestMapping(value = "/socialAnalysis/socialAnalysisSec", method = RequestMethod.GET)
+	@RequestMapping(value = "/socialAnalysisSec", method = RequestMethod.GET)
 	public String socialAnalysisSec() {
 		return "socialAnalysis/socialAnalysisSec";
 	}
